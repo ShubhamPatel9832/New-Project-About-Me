@@ -1,0 +1,133 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(195, 215, 215);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.main{
+    display: flex;
+    margin: 20px;
+    margin-top: 150px;
+    margin-right: 350px;
+    margin-left: 350px;
+    height: 400px;
+    width: 700px;
+    gap: 20px;
+    flex-direction: row;
+    box-shadow: 5px 10px 15px 10px #6d6a6d;
+    border-radius: .5rem;
+    background-color: white;
+    padding: 10px;
+    
+}
+img{
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap:40px;
+    align-content: start;
+}
+
+.left{
+float: left;
+width: 50%;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.right{
+    width:50%;
+    float: right;
+  
+}
+.right> p {
+    height:100%;
+  
+
+}
+.img >img{
+    border-radius: .4rem;
+}
+.left2>h2{
+display: flex;
+ float: left;
+   
+
+}
+
+.bluee5{
+    background-color: blue;
+    height: 5px;
+    width: 40%;
+    gap: 300px;
+    
+}
+.skills{
+    margin: 2px;
+
+}
+
+.coreskill>p{
+    float: right;
+}
+
+.blue1{
+    background-color: hsl(248, 93%, 42%);
+    height: 7px;
+   border-radius: 10px;
+    width: 95%;
+}
+.blue2{
+    background-color: rgb(57, 40, 213);
+    height: 7px;
+    border-radius: 10px;
+    width: 80%;
+}
+.blue3{
+    background-color: rgb(48, 30, 191);
+    height: 7px;
+    border-radius: 10px;
+    width: 60%;
+}
+.blue4{
+    background-color: rgb(65, 23, 190);
+    height: 7px;
+    border-radius: 10px;
+    width: 50%;
+}
+.coreskill{
+    background-color: rgb(254, 252, 250);
+}
+
+i{
+    margin: 3px;
+}
+
+.Shubham {
+   
+    border-radius: 20px;
+    height: 7px;
+    width: 100%; 
+    background-color: rgb(199, 217, 217);
+    box-sizing: border-box; 
+}
+
+
